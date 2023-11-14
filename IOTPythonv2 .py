@@ -14,7 +14,7 @@ def iniciar_flask():
 
 def abrir_navegador():
     try:
-        webbrowser.open("https://www.google.com.br/maps/@-19.8163046,-43.9583666,17z?entry=ttu")
+        webbrowser.open("https://www.google.com.br/maps/place/ESTACIO+DE+SA/@-19.8163046,-43.9583666,17z/data=!4m6!3m5!1s0xa68fb7bff98c97:0x981fa9f94b6616fe!8m2!3d-19.8163097!4d-43.9557917!16s%2Fg%2F11f4lk3n69?entry=ttu")
     except Exception as e:
         print(f"Erro ao abrir o navegador: {e}")
 
